@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url(broli.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    border: 4px solid slategray;
+    border-radius: 10px;
+    color:white;
+    background-color: slategray;
+    text-align: center;
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 2px;
+}
+
+.row {
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: royalblue;
+    margin-right: 1000px;
+    border-radius: 5px;
+    -webkit-background-opacity: 0.5;
+}
+
+input[type="text"] {
+    -webkit-border-radius: 5px;
+}
+
+input[type="password"] {
+    -webkit-border-radius: 5px;
+}
+
+#name {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
